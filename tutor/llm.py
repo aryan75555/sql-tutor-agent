@@ -47,7 +47,7 @@ def call_gemini(system_prompt, user_prompt):
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         raise LLMError("GEMINI_API_KEY is not set.")
-    model = os.getenv("LLM_MODEL", "gemini-2.5-flash")
+    model = os.getenv("LLM_MODEL", "gemini-flash-latest")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     try:
         response = requests.post(
