@@ -4,8 +4,8 @@ An interactive web app that teaches SQL. It shows a problem, runs the student's 
 
 ## Features
 
-- 10 problems (3 easy, 4 medium, 3 hard) covering WHERE, ORDER BY, LIMIT, JOIN, LEFT JOIN, GROUP BY, HAVING, subqueries and self join
-- Sample database with 4 tables: departments, employees, customers, orders
+- 10 problems (3 easy, 4 medium, 3 hard) covering WHERE, ORDER BY, LIMIT, JOIN, LEFT JOIN, GROUP BY, HAVING, subqueries and self j   https://github.com/aryan75555/sql-tutor-agent.gitin
+- Sample database with 4 tables: departments, empl   https://github.com/aryan75555/sql-tutor-agent.gityees, customers, orders
 - Safe execution: only a single SELECT (or WITH ... SELECT) is allowed, the database is read-only and queries time out after 2 seconds
 - Result comparison that ignores row order unless the problem asks for ordering, ignores column aliases, and rounds decimals
 - LLM tutor with 3 hint levels that get more specific after every wrong attempt
@@ -62,7 +62,7 @@ AI_USAGE.md            AI usage note
 Requires Python 3.10 or newer.
 
 ```
-git clone <your-repo-url>
+git clone hub.com/aryan75555/sql-tutor-agent.git
 cd sql-tutor-agent
 python -m venv .venv
 ```
